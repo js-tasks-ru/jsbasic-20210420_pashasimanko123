@@ -1,5 +1,5 @@
 function checkSpam(str) {
-  let toLowerCase = str.toLowerCase();
+  const toLowerCase = str.toLowerCase();
 
   return toLowerCase.includes('1xbet') || toLowerCase.includes('xxx');
 }
