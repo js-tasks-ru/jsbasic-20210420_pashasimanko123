@@ -1,3 +1,4 @@
 function checkSpam(str) {
-  // ваш код...
+  const toLowerCase = str.toLowerCase();
+  return toLowerCase.includes('1xbet') || toLowerCase.includes('xxx');
 }
